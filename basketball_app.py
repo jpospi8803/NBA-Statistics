@@ -29,6 +29,7 @@ playerstats = load_data(selected_year)
 
 
 # Sidebar - Team selection
+playerstats = playerstats[playerstats['Tm'] != 'TOT'] 
 playerstats['Tm']=playerstats['Tm'].astype(str)
 sorted_unique_team = sorted(playerstats.Tm.unique())
 selected_team = st.sidebar.selectbox('Team',sorted_unique_team[:])

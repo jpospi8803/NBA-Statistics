@@ -11,7 +11,7 @@ st.set_page_config(
 # Sidebar - Year selection
 
 st.sidebar.header('User Input')
-selected_year = st.sidebar.selectbox('Year',list(reversed(range(1976,2023))))
+selected_year = st.sidebar.selectbox('Year',list(reversed(range(1976,2025))))
 
 
 # Web scraping and Data cleaning

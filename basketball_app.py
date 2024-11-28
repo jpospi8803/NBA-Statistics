@@ -56,9 +56,9 @@ st.markdown("""
 * **Data source:** [Basketball-reference.com](https://www.basketball-reference.com/)
 """)
 
-##image = Image.open('NBA.jpg')
+image = Image.open('NBA.jpg')
 
-##st.image(image, width=350) 
+st.image(image, width=350) 
 
 st.markdown("""
 ***
